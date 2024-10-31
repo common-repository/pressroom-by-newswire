@@ -1,0 +1,139 @@
+/** global css for newswire plugin */
+.newswirexpress-widget-date {
+	font-style: italic;
+	color: #aaa;
+	font-size: .8em;
+}
+.pressroom-photocaption, .pressroom-photocaption:hover {
+  font-size: .7em;
+  text-decoration: none !important;
+  
+  border: 0 !important;
+}
+/** flats **/
+input.flat {
+	border-radius: 0 !important;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	padding: 8px 10px;
+	line-height: 14px;
+}
+
+
+#pressroom-pin-navigation,
+#newswire-pin-navigation {
+	display: none;
+}
+#topmenu ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;    
+}
+
+#topmenu .nav > li > .dropdown-menu:before {
+  content: none;
+}
+
+#topmenu .nav > li > .dropdown-menu:after {
+  content: none;
+}
+
+#infscr-loading { 
+	background: #000;
+	bottom: 0;
+	color: #fff;
+	left: 50%;
+	margin-left: -60px;
+	opacity: 0.3;
+	padding: 5px;
+	position: fixed;
+	text-align: center;
+	width: 120px;
+	z-index: 100;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#infscr-loading img {
+	width: 43px;
+}
+
+
+/* Navigation */
+#navigation {
+clear: both;
+display: none;
+}
+
+#navigation .pager a, .post-wrapper .pager a {
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+#navigation .pager a:hover, .post-wrapper .pager a:hover {
+background-color: #45b0e3;
+color: #fff;
+}
+
+#scrolltotop {
+bottom: 0;
+position: fixed;
+right: 15px;
+z-index: 999;
+}
+
+#scrolltotop a {
+	color: #666;
+	display: block;
+	font-weight: bold;
+	line-height: 1em;
+	padding: 10px 20px;
+	text-align: center;
+	text-shadow: 0 1px rgba(255,255,255,0.8);
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	background: rgb(252,252,252);
+	background: -moz-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(241,241,241,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(241,241,241,1)));
+	background: -webkit-linear-gradient(top, rgba(252,252,252,1) 0%,rgba(241,241,241,1) 100%);
+	background: -o-linear-gradient(top, rgba(252,252,252,1) 0%,rgba(241,241,241,1) 100%);
+	background: -ms-linear-gradient(top, rgba(252,252,252,1) 0%,rgba(241,241,241,1) 100%);
+	background: linear-gradient(to bottom, rgba(252,252,252,1) 0%,rgba(241,241,241,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#f1f1f1',GradientType=0 );
+}
+
+
+.block-footer-link {
+	font-size: 10px;
+	margin: 1px 5px 1px 5px;
+	text-align: right;
+	width: auto;
+	position: fixed;
+	bottom: 0px;
+	margin-left: 10%;
+	opacity: .3;
+
+}
+
+
+.latest-thumbnail {
+	float: left;
+	margin: 0 10px 0 0;
+}
+ul.list,
+ul.list > li {
+
+  list-style: none;
+  clear: both;
+  padding: 5px 0 0 0;
+}

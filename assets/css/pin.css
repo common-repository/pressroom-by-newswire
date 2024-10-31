@@ -1,0 +1,2221 @@
+/* NEWSROOM PIN STYLES */
+#pin_items {
+  
+  margin: 100px auto;
+}
+#pin_items .pin_share_bn
+{
+  border: 1px solid #CCCCCC;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  float: none;
+  padding: 5px;
+  width: 100px;
+  color: #555;
+  font-weight: bold;
+  background: #eee;
+}
+
+#pin_items .pin_share_bn:hover
+{
+  text-decoration: none;
+}
+
+.pin_share_bn + .pin_share_bn
+{
+  margin-top: 5px;
+}
+
+#pin_items .at16nc
+{
+  padding-right: 3px;
+}
+
+.pin_box_photo
+{
+  position: relative;
+}
+
+#pin_items .share_buttons
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#pin_items .pin_box_photo .share_buttons
+{
+  display: none;
+}
+
+#pin_items .pin_box_photo:hover .share_buttons
+{
+  display: block;
+  transition: display 250ms;
+}
+
+#pin_items .pin_box_meta
+{
+  margin: 3px;
+  background: #f9f9f9;
+  padding: 3px;
+}
+
+.addthis_button_google_plusone > div
+{
+  float: left !important;
+  margin-right: 4px !important;
+}
+
+.pin_box .comments
+{
+  width: auto;
+}
+
+.pin_box .comments .comments_options
+{
+  font-weight: normal;
+  font-size: 10px;
+}
+
+/* END NEWSROOM PIN STYLES */
+/* START ARTICLE VIEW STYLE */
+.article_holder h1
+{
+  border-bottom: 0 solid #EEEEEE;
+  color: #333333;
+  font-size: 22px;
+  font-weight: bolder;
+  margin-bottom: 2px;
+  padding: 8px 0 4px;
+}
+
+#box_left_holder
+{
+  margin-left: 320px;
+  overflow: hidden;
+}
+
+#box_right_holder
+{
+  margin-right: 320px;
+}
+
+.article_holder
+{
+/*  padding: 5px 15px;
+*/
+  color: #333;
+  line-height: 1.6em;
+/*  background: #E5E5E5;
+*/
+  overflow: hidden;
+}
+
+.article_metadata
+{
+  color: #666666;
+  font-size: 12px;
+  margin-bottom: 4px;
+  padding: 0 0 10px;
+}
+
+.article_body
+{
+  font-size: 12px;
+  color: #333333;
+  line-height: 1.6em;
+  margin-bottom: 12px;
+/*  overflow: hidden;
+*/
+  width: 100%;
+}
+
+.article_holder .image
+{
+  border: 1px solid #CCCCCC;
+  padding: 4px;
+  display: inline-block;
+}
+
+.iframe
+{
+  margin: 0 10px 10px;
+  width: 300px;
+}
+
+.box_breadcrumb
+{
+  border-bottom: 1px solid #EEEEEE;
+  color: #554D49;
+  margin-bottom: 10px;
+  padding: 6px 0;
+  overflow: hidden;
+  height: 27px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.article_metadata .font_switch
+{
+  float: right;
+}
+
+.article_metadata .font_switch a
+{
+  font-size: 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  outline: none;
+}
+
+.layout_article_profile_social_shares
+{
+  width: 70px;
+  float: right;
+  height: 318px;
+}
+
+.article_body_intro
+{
+  margin-bottom: 15px;
+  display: block;
+  font-weight: bold;
+}
+
+/*
+#article_body_main p
+{
+  margin-bottom: 15px;
+  min-height: 1px;
+}
+
+*/
+#article_body_main br
+{
+  clear: none;
+}
+
+#company_nap
+{
+  clear: both;
+}
+
+#company_nap h3
+{
+  background: none;
+  text-align: left;
+  font-weight: bold;
+}
+
+#article_body_main p:first-child br
+{
+  display: none;
+}
+
+.box_breadcrumb > div
+{
+  float: left;
+}
+
+.layout_article_similar_articles
+{
+  clear: both;
+  margin: 10px 0;
+}
+
+.layout_article_similar_articles .same_category,
+.layout_article_similar_articles .same_author
+{
+  width: 540px;
+  float: left;
+  padding: 5px;
+}
+
+.layout_article_similar_articles h2
+{
+  font-size: 1.3em;
+}
+
+.layout_article_similar_articles li
+{
+  overflow: hidden;
+}
+
+.layout_article_similar_articles .thumb_icon
+{
+  float: left;
+}
+
+.layout_article_similar_articles .blurb
+{
+  margin-left: 55px;
+}
+
+.layout_article_similar_articles li + li
+{
+  margin-top: 10px;
+}
+
+/* END ARTICLE VIEW STYLE */
+.pin_action_button,
+.pin_action_button:link, .pin_action_button:visited
+{
+  background-color: #F0EDED;
+  background-image: -moz-linear-gradient(center top , #FDFAFB, #F9F7F7 50%, #F6F3F4 50%, #F0EDED);
+  border: 1px solid #BBBBBB;
+  color: #524D4D;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1em;
+  margin: 0;
+  padding: 0.4em 0.8em;
+  text-decoration: none;
+}
+
+.pin_action_button:hover
+{
+  text-decoration: none;
+  -moz-box-shadow: 0 0 2px 0 #aaa;
+  -webkit-box-shadow: 0 0 2px 0 #aaa;
+  box-shadow: 0 0 2px 0 #aaa;
+}
+
+.pin_action_button:active
+{
+  text-decoration: none;
+  -moz-box-shadow: 0 0 2px 0 #aaa;
+  -webkit-box-shadow: 0 0 2px 0 #aaa;
+  box-shadow: 0 0 2px 0 #aaa;
+  background: #F0EDED;
+}
+
+.pin_action_loading
+{
+  background: #F2F0F0 url(/application/modules/Core/externals/images/loading.gif?c=82) 5px center no-repeat;
+  border: 1px solid #eee;
+  color: #aaa !important;
+  cursor: progress;
+  padding: 0.4em 0.8em 0.4em 26px;
+  display: inline-block;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  text-decoration: none;
+  line-height: 1em;
+  margin: 0;
+}
+
+.pin_action_loading:hover
+{
+  text-decoration: none;
+}
+
+/* control button */
+.pin_control_button,
+.pin_control_button:link, .pin_control_button:visited
+{
+  background-color: #F5F5F5;
+  background-image: -moz-linear-gradient(center top , #FFFFFF, #E6E6E6);
+  border-color: #E6E6E6 #E6E6E6 #B3B3B3;
+  border-radius: 4px 4px 4px 4px;
+  border-style: solid;
+  border-width: 1px;
+  color: #666;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1em;
+  margin: 0;
+  padding: 0.4em 0.8em;
+  text-decoration: none;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+}
+
+.pin_control_button:hover
+{
+  text-decoration: none;
+  background-color: #E6E6E6;
+  background-image: -moz-linear-gradient(center top , #eeeeee, #d6d6d6);
+  color: #000000;
+}
+
+.pin_control_button:active
+{
+  text-decoration: none;
+  background: #E6E6E6;
+  background-image: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* form search pins */
+form.pin_form_search
+{
+  padding: 10px;
+  border-top: 1px dotted transparent;
+  border-bottom: 3px double transparent;
+  overflow: hidden;
+  position: relative;
+  background: transparent;
+  -moz-box-shadow: 0 2px 3px 0 transparent;
+  -webkit-box-shadow: 0 2px 3px 0 transparent;
+  box-shadow: 0 2px 3px 0 transparent;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+form.pin_form_search div.form-wrapper
+{
+  display: inline-block;
+}
+
+form.pin_form_search div.form-wrapper .form-label
+{
+  display: none;
+}
+
+form.pin_form_search .form-element select,
+form.pin_form_search .form-element input
+{
+  font-size: 18px;
+}
+
+div.pin_user_menu form.pin_form_user
+{
+  float: right;
+}
+
+form.pin_form_user div.form-wrapper
+{
+  display: inline-block;
+}
+
+form.pin_form_user div.form-wrapper .form-label
+{
+  display: none;
+}
+
+/* manage search form */
+.pin_filter_form
+{
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: none;
+  padding: 7px;
+}
+
+.pin_filter_form span.overTxtLabel
+{
+  color: #999;
+}
+
+.pin_filter_form > ul > li + li
+{
+  margin-top: 7px;
+}
+
+.pin_filter_form > ul > li
+{
+  clear: both;
+  font-size: 0.8em;
+  overflow: hidden;
+}
+
+.pin_filter_form > ul > li > span
+{
+  display: block;
+  margin-bottom: 3px;
+}
+
+.pin_filter_form > ul > li textarea
+{
+  width: 95%;
+  height: 50px;
+}
+
+#pin_search_keyword_form
+{
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: none;
+  padding: 7px;
+}
+
+#pin_search_keyword_form .overTxtLabel
+{
+  color: #999;
+}
+
+#pin_search_keyword_field
+{
+  width: 95%;
+}
+
+/* forms create */
+#pins_pin_create > div > div
+{
+  width: 570px;
+  background: transparent;
+  border: 5px solid transparent;
+  padding: 12px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+
+#pins_pin_create .validation-failed
+{
+  border: 1px solid red;
+  -moz-box-shadow: 0 0 2px 0 red;
+  -webkit-box-shadow: 0 0 2px 0 red;
+  box-shadow: 0 0 2px 0 red;
+}
+
+#pins_pin_create #pins_pin_create_error_js
+{
+  background: url(/application/modules/Core/externals/images/error.png?c=82) center left no-repeat;
+  padding-left: 21px;
+  color: red;
+}
+
+#pins_pin_create .form-elements
+{
+  overflow: hidden;
+}
+
+#pins_pin_create #url-wrapper
+{
+  padding-bottom: 10px;
+  margin: 10px 0;
+  border-bottom: 1px solid transparent;
+}
+
+#pins_pin_create #url-wrapper #url-label
+{
+  display: none;
+}
+
+#pins_pin_create input#url
+{
+  width: 376px;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 6px 12px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+#pins_pin_create input#url.required
+{
+  border-color: red;
+}
+
+#pins_pin_create #url-element span.overTxtLabel
+{
+  font-size: 14px;
+  color: #999;
+  padding: 6px 12px;
+}
+
+#pins_pin_create #pin-link-suggest-activator
+{
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+#pins_pin_create #pin-link-suggest-loader
+{
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+#pins_pin_create #photo-wrapper,
+#pins_pin_create #thumb-wrapper
+{
+  float: left;
+  width: 240px;
+  display: block;
+  min-height: 240px;
+}
+
+#pins_pin_create #thumb-wrapper #thumb-element
+{
+  displayx: none;
+}
+
+#pins_pin_create #compose-link-preview-images
+{
+  float: none;
+  text-align: center;
+  width: 190px;
+  height: 170px;
+  border-width: 1px;
+  border-color: transparent;
+  -moz-box-shadow: 0 1px 1px 0 #aaa;
+  -webkit-box-shadow: 0 1px 1px 0 #aaa;
+  box-shadow: 0 1px 1px 0 #aaa;
+  padding: 5px;
+  background: #fff;
+}
+
+#pins_pin_create #compose-link-preview-images img
+{
+  width: auto;
+  max-width: 180px;
+  max-height: 160px;
+}
+
+#pins_pin_create #compose-link-preview-options .compose-preview-options-choose
+{
+  text-align: center;
+}
+
+#pins_pin_create #compose-link-preview-options .compose-preview-options-count
+{
+  padding: 0;
+}
+
+#pins_pin_create #compose-link-preview-info .compose-preview-options-none
+{
+  font-size: 11px;
+}
+
+#pins_pin_create .compose-preview-info
+{
+  padding: 5px;
+  width: 190px;
+  text-align: center;
+}
+
+#pins_pin_create input#title
+{
+  width: 300px;
+  font-size: 16px;
+}
+
+#pins_pin_create textarea#description
+{
+  width: 300px;
+  height: 70px;
+}
+
+#pins_pin_create #new_board-wrapper,
+#pins_pin_create #board_id-wrapper,
+#pins_pin_create #title-wrapper
+{
+  margin-bottom: 10px;
+}
+
+#pins_pin_create .form-label
+{
+  font-weight: bold;
+}
+
+#pins_pin_create #new_board-wrapper .pin_action_button,
+#pins_pin_create #board_id-wrapper .pin_action_button
+{
+  font-size: 13px;
+}
+
+#pins_pin_create #new_board-wrapper .pin_action_loading
+{
+  font-size: 12px;
+}
+
+#pins_pin_create #new_board
+{
+  width: 160px;
+  font-size: 16px;
+}
+
+#pins_pin_create #board_id
+{
+  width: 170px;
+  font-size: 16px;
+}
+
+#pins_pin_create #pins_create_board_cancel
+{
+  cursor: pointer;
+}
+
+/* -- repin --*/
+#global_page_pin-pin-repin #global_content_simple,
+#global_page_pin-index-marklet #global_content_simple
+{
+  margin: 15px 0 0 15px;
+}
+
+#global_page_pin-pin-repin #pins_pin_create #photo-element
+{
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-color: #DDECF3;
+  border-width: 1px;
+  box-shadow: 0 1px 1px 0 #AAAAAA;
+  height: 170px;
+  padding: 5px;
+  text-align: center;
+  width: 190px;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+#global_page_pin-pin-repin #pins_pin_create #photo-element img
+{
+  max-height: 160px;
+  max-width: 180px;
+  width: auto;
+}
+
+/**** Masonry CSS ****/
+.pin_items_wrap
+{
+  border: 0px solid #456;
+  margin-bottom: 20px;
+}
+
+.pin_items_wrap:after
+{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.pin_box
+{
+  margin: 7px;
+  float: left;
+  overflow: hidden;
+  -moz-box-shadow: 0 2px 1px 0 #ddd;
+  -webkit-box-shadow: 0 2px 1px 0 #ddd;
+  box-shadow: 0 2px 1px 0 #ddd;
+  background: #fff;
+  border: 1px solid #eaeaea;
+}
+
+.pin_box_col1
+{
+  width: 300px;
+}
+
+.pin_box_col1 img
+{
+  max-width: none;
+}
+
+div.pin_box_actions
+{
+  display: none;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+div.pin_box_content
+{
+  margin: 10px;
+}
+
+div.pin_box_photo img.thumb_profile
+{
+  max-height: 800px !important;
+  border: 0;
+}
+
+div.pin_box_title
+{
+  font-weight: bold;
+}
+
+div.pin_box_description
+{
+  font-size: 0.8em;
+}
+
+.pin_box_meta
+{
+  font-size: 0.8em;
+  color: #999;
+  margin: 3px auto;
+}
+
+.pin_box_meta li
+{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.pin_box_meta li:last-child
+{
+  margin-right: 0;
+}
+
+.pin_box_photo_link
+{
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+}
+
+div.pin_box_pinner
+{
+  background: #f9f9f9;
+  padding: 10px;
+  overflow: hidden;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #fff;
+}
+
+div.pin_box_pinner > div
+{
+  font-size: 0.8em;
+  overflow: hidden;
+}
+
+div.pin_box_pinner .item_photo_user
+{
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin-right: 5px;
+}
+
+div.pin_box_pinner .pin_box_pinner_date
+{
+  color: #999;
+}
+
+div.pin_box_pinner a
+{
+  font-weight: bold;
+}
+
+div.pin_box_source
+{
+  background: #f9f9f9;
+  padding: 10px;
+  font-size: 0.8em;
+  overflow: hidden;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #fff;
+}
+
+div.pin_box_source p
+{
+  word-wrap: break-word;
+}
+
+div.pin_box_source a
+{
+  font-weight: bold;
+}
+
+div.pin_box_manage
+{
+  background: #f9f9f9;
+  padding: 10px;
+  font-size: 0.8em;
+  overflow: hidden;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #fff;
+}
+
+div.pin_box_icons
+{
+  position: absolute;
+  background: #eaeaea;
+  opacity: 1;
+  filter: alpha(opacity=100);
+/* For IE8 and earlier */
+  top: 0;
+  right: 0;
+  padding: 2px 5px;
+  border-radius: 0px 0px 0px 5px;
+  -moz-border-radius: 0px 0px 0px 5px;
+  -webkit-border-radius: 0px 0px 0px 5px;
+}
+
+div.pin_box_icons span.pin_box_icon_featured
+{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(/application/modules/Pin/externals/images/featured.png?c=82) center center no-repeat;
+}
+
+div.pin_box_icons span.pin_box_icon_sponsored
+{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(/application/modules/Pin/externals/images/sponsored.png?c=82) center center no-repeat;
+}
+
+.pin_box:hover div.pin_box_icons
+{
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+/* For IE8 and earlier */
+  display: none;
+}
+
+div.pin_box_actions .pin_control_button
+{
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.pin_control_button em
+{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  left: -2px;
+  position: relative;
+  top: 1px;
+}
+
+.pin_control_button_pin em,
+.pin_control_button_repin em
+{
+  background: url(/application/modules/Pin/externals/images/pin_small.png?c=82) center center no-repeat;
+}
+
+.pin_control_button_like em
+{
+  background: url(/application/modules/Pin/externals/images/like_small.png?c=82) center center no-repeat;
+}
+
+.pin_control_button_unlike
+{
+  background: #ddd !important;
+  color: #999999 !important;
+}
+
+.pin_control_button_unlike em
+{
+  background: url(/application/modules/Pin/externals/images/liked_small.png?c=82) center center no-repeat;
+}
+
+.pin_control_button_edit em
+{
+  background: url(/application/modules/Pin/externals/images/edit_small.png?c=82) center center no-repeat;
+}
+
+.pin_board_profile_info_buttons .pin_control_button em
+{
+  height: 16px;
+  width: 16px;
+  margin-right: 3px;
+}
+
+.pin_board_profile_info_buttons .pin_control_button_edit em
+{
+  background: url(/application/modules/Pin/externals/images/edit_large.png?c=82) center center no-repeat;
+}
+
+.pin_board_profile_info_buttons .pin_control_button_pin em
+{
+  background: url(/application/modules/Pin/externals/images/create.png?c=82) center center no-repeat;
+}
+
+.pin_board_profile_info_buttons .pin_control_button_like em
+{
+  background: url(/application/modules/Pin/externals/images/like.png?c=82) center center no-repeat;
+}
+
+.pin_board_profile_info_buttons .pin_control_button_unlike em
+{
+  background: url(/application/modules/Pin/externals/images/liked.png?c=82) center center no-repeat;
+}
+
+/*** pin board box ***/
+div.pin_board_box
+{
+  margin: 10px 10px 15px 10px;
+  display: inline-block;
+  overflow: hidden;
+  padding: 5px;
+  width: 200px;
+}
+
+div.pin_board_box div.pin_board_box_header
+{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+div.pin_board_box div.pin_board_box_header > span
+{
+  display: block;
+  font-size: 0.8em;
+  color: #999;
+}
+
+div.pin_board_box div.pin_board_box_container
+{
+  overflow: hidden;
+  -moz-box-shadow: 0 2px 1px 0 #ddd;
+  -webkit-box-shadow: 0 2px 1px 0 #ddd;
+  box-shadow: 0 2px 1px 0 #ddd;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  padding: 1px;
+  position: relative;
+}
+
+div.pin_board_box .pin_board_box_photo
+{
+  overflow: hidden;
+  text-align: center;
+}
+
+div.pin_board_box a.pin_board_box_link
+{
+  display: block;
+  height: 250px;
+  top: 1px;
+  left: 1px;
+  opacity: 0;
+  position: absolute;
+  width: 99%;
+  z-index: 1;
+}
+
+div.pin_board_box .pin_board_box_cover img.thumb_profile
+{
+  max-height: 200px;
+  max-width: 200px;
+  height: 200px;
+  width: 200px;
+  border: 0;
+}
+
+div.pin_board_box .pin_board_box_thumbs
+{
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+div.pin_board_box .pin_board_box_thumbs img,
+div.pin_board_box .pin_board_box_thumbs span
+{
+  height: 48px;
+  width: 48px;
+  border: 0;
+  margin: 0 1px;
+  float: left;
+  background: #EFEFEF;
+}
+
+div.pin_board_box .pin_board_box_meta
+{
+  background: #f9f9f9;
+  padding: 5px;
+  font-size: 0.8em;
+  color: #999;
+}
+
+div.pin_board_box .pin_board_box_meta > span
+{
+  display: inline-block;
+  margin-rightx: 10px;
+}
+
+/**** Masonry CSS end ****/
+.pin_widget_paginator,
+#pin_paginator
+{
+  clear: both;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.pin_widget_paginator a.pin_paginator_load,
+#pin_paginator a.pin_paginator_load,
+#pin_paginator span.pin_paginator_loading
+{
+  width: 95%;
+  margin: 0 auto;
+}
+
+a.pin_paginator_load,
+a.pin_paginator_load:link, a.pin_paginator_load:visited
+{
+  -moz-box-shadow: 0 0 1px #FFFFFF inset;
+  -webkit-box-shadow: 0 0 1px #FFFFFF inset;
+  box-shadow: 0 0 1px #FFFFFF inset;
+  background-color: #E0E0E0;
+  background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #FAFAFA), color-stop(1, #DCDCDC) );
+  background-image: -moz-linear-gradient( center top, #FAFAFA 0px, #DCDCDC 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#DCDCDC');
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border-color: #CCCCCC #CCCCCC #AAAAAA;
+  border-width: 1px;
+  border-style: solid;
+  display: inline-block;
+  color: #555555;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 0.85em;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #FFFFFF;
+  text-align: center;
+  height: 2.78em;
+  line-height: 2.8em;
+  cursor: pointer;
+  outline: 0 none;
+  vertical-align: middle;
+}
+
+a.pin_paginator_load:hover
+{
+  background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #F0F0F0), color-stop(1, #E6E6E6) );
+  background-image: -moz-linear-gradient( center top, #F0F0F0 0%, #E6E6E6 100% );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F0', endColorstr='#E6E6E6');
+  border-color: #AAAAAA #AAAAAA #999999;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 0 3px #FFFFFF inset;
+}
+
+a.pin_paginator_load:active
+{
+  background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #C8C8C8), color-stop(1, #E6E6E6) );
+  background-image: -moz-linear-gradient( center top, #C8C8C8 0%, #E6E6E6 100% );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C8C8C8', endColorstr='#E6E6E6');
+  border-color: #888888 #AAAAAA #CCCCCC;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25) inset, 0 1px 0 #FFFFFF;
+}
+
+.pin_paginator_loading
+{
+  -moz-box-shadow: 0 0 1px #FFFFFF inset;
+  -webkit-box-shadow: 0 0 1px #FFFFFF inset;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25) inset, 0 1px 0 #FFFFFF;
+  background-color: #E0E0E0;
+  background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #C8C8C8), color-stop(1, #E6E6E6) );
+  background-image: -moz-linear-gradient( center top, #C8C8C8 0%, #E6E6E6 100% );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C8C8C8', endColorstr='#E6E6E6');
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border-color: #888888 #AAAAAA #CCCCCC;
+  border-width: 1px;
+  border-style: solid;
+  display: inline-block;
+  color: #555555;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 0.85em;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #FFFFFF;
+  text-align: center;
+  height: 2.78em;
+  line-height: 2.8em;
+  cursor: wait;
+  outline: 0 none;
+  vertical-align: middle;
+}
+
+.pin_paginator_loading em
+{
+  background: url(/application/modules/Core/externals/images/loading.gif?c=82) center center no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+/* repin result */
+div.pin_repin_result
+{
+  margin: 15px 0 0 15px;
+}
+
+div.pin_repin_result .pin_repin_result_header
+{
+  font-size: 18px;
+  text-align: center;
+}
+
+div.pin_repin_result .pin_repin_result_intro
+{
+  font-size: 16px;
+  text-align: center;
+}
+
+div.pin_repin_result .pin_repin_result_close
+{
+  font-size: 0.8em;
+  text-align: right;
+}
+
+div.pin_header_title
+{
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* board rows */
+ul.pin_board_rows
+{
+  margin-bottom: 15px;
+}
+
+ul.pin_board_rows > li
+{
+  overflow: hidden;
+}
+
+ul.pin_board_rows > li + li
+{
+  border-top-width: 1px;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+ul.pin_board_rows .pin_board_row_photo
+{
+  float: left;
+  margin-right: 10px;
+  overflow: hidden;
+  width: 102px;
+  text-align: center;
+}
+
+ul.pin_board_rows .pin_board_row_photo img
+{
+  max-width: 100px;
+}
+
+ul.pin_board_rows .pin_board_row_content
+{
+  overflow: hidden;
+}
+
+ul.pin_board_rows .pin_board_row_title
+{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+ul.pin_board_rows .pin_board_row_meta li
+{
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 0.8em;
+  color: #999;
+}
+
+ul.pin_board_rows .pin_board_row_description
+{
+  margin: 5px 0;
+}
+
+ul.pin_board_rows .pin_board_row_options
+{
+  margin: 5px 0;
+}
+
+ul.pin_board_rows .pin_board_row_options a
+{
+  font-size: 0.8em;
+  height: 16px;
+  margin-right: 15px;
+  padding-top: 1px;
+  display: inline-block;
+}
+
+/* WIDGET LAYOUT */
+.layout_page_pin_pin_preview
+{
+  padding: 15px 15px 0 15px;
+}
+
+.layout_page_pin_pin_preview div.pin_profile_photo img.main
+{
+  max-height: 560px;
+}
+
+#global_page_pin-pin-view .layout_core_comments,
+.layout_pin_board_edit_info,
+.layout_pin_board_edit_menu,
+.layout_pin_board_profile_breadcrumb,
+.layout_pin_board_profile_header,
+.layout_pin_board_profile_info,
+.layout_pin_categories,
+.layout_pin_create_menu,
+.layout_pin_list_boards,
+.layout_pin_list_pins,
+.layout_pin_manage_menu,
+.layout_pin_manage_search,
+.layout_pin_member_profile_boards,
+.layout_pin_pin_edit_info,
+.layout_pin_pin_edit_menu,
+.layout_pin_profile_actions,
+.layout_pin_profile_board,
+.layout_pin_profile_body,
+.layout_pin_profile_breadcrumb,
+.layout_pin_profile_likes,
+.layout_pin_profile_options,
+.layout_pin_profile_photo,
+.layout_pin_profile_pinner,
+.layout_pin_profile_repins,
+.layout_pin_profile_social_shares,
+.layout_pin_profile_source,
+.layout_pin_profile_submitter,
+.layout_pin_profile_tools,
+.layout_pin_search_board,
+.layout_pin_search_keyword,
+.layout_pin_search_pins,
+.layout_pin_user_breadcrumb,
+.layout_pin_user_info,
+.layout_pin_user_menu
+{
+  margin-bottom: 15px;
+}
+
+/* BOARD WIDGETS */
+div.pin_pin_edit_info,
+div.pin_board_edit_info
+{
+  font-size: 0.8em;
+  border: 1px solid transparent;
+  padding: 5px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* PROFILE WIDGETS */
+/* widget - profile actions */
+div.pin_profile_actions
+{
+  overflow: hidden;
+}
+
+div.pin_profile_actions div.pin_profile_actions_source
+{
+  float: right;
+  color: #999;
+}
+
+div.pin_profile_actions div.pin_profile_actions_source a
+{
+  font-weight: bold;
+}
+
+div.pin_profile_actions div.pin_profile_actions_buttons a
+{
+  margin-right: 10px;
+}
+
+/* widget - profile board */
+div.pin_profile_board_header
+{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+div.pin_profile_board_header > span
+{
+  display: block;
+  font-size: 0.8em;
+  color: #999;
+}
+
+div.pin_profile_board_pins
+{
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+div.pin_profile_board_pins li
+{
+  display: inline-block;
+  margin: 0 2px;
+}
+
+/* widget - profile breadcrumb */
+div.pin_profile_breadcrumb
+{
+  border-bottom-width: 1px;
+  padding: 5px 0;
+}
+
+div.pin_profile_breadcrumb ul li
+{
+  display: inline;
+}
+
+/* widget - profile photo */
+div.pin_profile_photo
+{
+  text-align: center;
+  background: #f9f9f9;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+div.pin_profile_photo:hover
+{
+  background: #eee;
+}
+
+div.pin_profile_photo img.main
+{
+  max-width: 720px;
+  border: 0;
+}
+
+/* widget - profile pinner */
+div.pin_profile_pinner
+{
+  overflow: hidden;
+}
+
+div.pin_profile_pinner img.thumb_icon
+{
+  float: left;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+div.pin_profile_pinner div.pin_profile_pinner_title
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.pin_profile_pinner div.pin_profile_pinner_date
+{
+  color: #999;
+}
+
+/* widget - profile body */
+div.pin_profile_body div.pin_profile_body_title
+{
+  font-weight: bold;
+}
+
+div.pin_profile_body .pin_box_meta,
+div.pin_profile_body_via,
+div.pin_profile_body_original
+{
+  margin: 5px auto;
+  overflow: hidden;
+}
+
+div.pin_profile_body_via
+{
+  color: #999;
+}
+
+div.pin_profile_body_via a,
+div.pin_profile_body_original a
+{
+  font-weight: bold;
+}
+
+div.pin_profile_body_original
+{
+  line-height: 24px;
+}
+
+div.pin_profile_body_original img.thumb_icon
+{
+  width: 24px;
+  height: 24px;
+  vertical-align: bottom;
+}
+
+/* widget - profile likes */
+div.layout_left div.pin_profile_likes,
+div.layout_right div.pin_profile_likes
+{
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+div.pin_profile_likes li
+{
+  display: inline-block;
+  margin: 0 2px;
+}
+
+/* widget - profile source */
+div.layout_left div.pin_profile_source,
+div.layout_right div.pin_profile_source
+{
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+div.pin_profile_source p
+{
+  margin-bottom: 5px;
+  font-size: 0.8em;
+}
+
+div.pin_profile_source p a
+{
+  font-weight: bold;
+}
+
+div.pin_profile_source li
+{
+  display: inline-block;
+  margin: 0 2px;
+}
+
+/* widget - profile tools */
+.pin_profile_tools > a.buttonlink
+{
+  padding-left: 13px;
+  font-size: 0.8em;
+  margin-right: 10px;
+  background-position: left center;
+}
+
+/* widget - profile repins */
+div.layout_left div.pin_profile_repins,
+div.layout_right div.pin_profile_repins
+{
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+div.layout_middle div.pin_profile_repins li > span
+{
+  display: block;
+  padding-top: 16px;
+}
+
+div.pin_profile_repins li
+{
+  overflow: hidden;
+}
+
+div.pin_profile_repins li + li
+{
+  margin-top: 7px;
+}
+
+div.pin_profile_repins li img.thumb_icon
+{
+  float: left;
+  margin-right: 7px;
+}
+
+div.pin_profile_repins li a
+{
+  font-weight: bold;
+}
+
+div.layout_left div.pin_profile_repins li,
+div.layout_right div.pin_profile_repins li
+{
+  font-size: 0.8em;
+}
+
+div.pin_profile_repins li span.timestamp
+{
+  color: #999;
+}
+
+.pin_profile_more_link
+{
+  margin-top: 5px;
+}
+
+/* widget - profile tools */
+.pin_profile_tools > a.buttonlink
+{
+  padding-left: 13px;
+  font-size: 0.8em;
+  margin-right: 10px;
+  background-position: left center;
+}
+
+/*
+
+FEED ITEMS
+
+Styles items with pin attachments in the feed.
+
+*/
+ul.feed .feed_attachment_pin
+{
+  display: block;
+  overflow: hidden;
+  margin: 0px 5px 5px 0px;
+  vertical-align: top;
+}
+
+ul.feed .feed_attachment_pin > div > a
+{
+  display: block;
+  float: left;
+  margin-right: 7px;
+}
+
+ul.feed .feed_attachment_pin > div > a > img
+{
+  display: inline-block;
+  max-width: 90px;
+  max-height: 90px;
+  vertical-align: top;
+}
+
+ul.feed .feed_attachment_pin > div > div
+{
+  overflow: hidden;
+}
+
+/* ITEM TYPE ICONS */
+.item_icon_pin
+{
+  background-image: url(/application/modules/Pin/externals/images/types/pin.png?c=82);
+}
+
+.activity_icon_comment_pin
+{
+  background-image: url(/application/modules/Core/externals/images/types/post.png?c=82);
+}
+
+.icon_pin_share
+{
+  background-image: url(/application/modules/Pin/externals/images/share.png?c=82);
+}
+
+.icon_pin_report
+{
+  background-image: url(/application/modules/Pin/externals/images/report.png?c=82);
+}
+
+.icon_pin_view
+{
+  background-image: url(/application/modules/Pin/externals/images/pin.png?c=82);
+}
+
+.icon_pin_repin
+{
+  background-image: url(/application/modules/Pin/externals/images/repin.png?c=82);
+}
+
+.icon_pin_edit
+{
+  background-image: url(/application/modules/Pin/externals/images/edit.png?c=82);
+}
+
+.icon_pin_delete
+{
+  background-image: url(/application/modules/Pin/externals/images/delete.png?c=82);
+}
+
+.icon_pin_cover
+{
+  background-image: url(/application/modules/Pin/externals/images/cover.png?c=82);
+}
+
+.icon_pin_create_pin,
+.icon_pin_manage_create_pin,
+.icon_pin_new
+{
+  background-image: url(/application/modules/Pin/externals/images/create.png?c=82);
+}
+
+.icon_pin_pins,
+.icon_pin_manage_user_pins
+{
+  background-image: url(/application/modules/Pin/externals/images/list.png?c=82);
+}
+
+.icon_pin_board_view
+{
+  background-image: url(/application/modules/Pin/externals/images/board/view.png?c=82);
+}
+
+.icon_pin_board_edit
+{
+  background-image: url(/application/modules/Pin/externals/images/board/edit.png?c=82);
+}
+
+.icon_pin_board_delete
+{
+  background-image: url(/application/modules/Pin/externals/images/board/delete.png?c=82);
+}
+
+.icon_pin_board_pin
+{
+  background-image: url(/application/modules/Pin/externals/images/create.png?c=82);
+}
+
+.icon_pin_create_board,
+.icon_pin_manage_create_board
+{
+  background-image: url(/application/modules/Pin/externals/images/board/create.png?c=82);
+}
+
+.icon_pin_manage_user_boards,
+.icon_pin_boards
+{
+  background-image: url(/application/modules/Pin/externals/images/board/list.png?c=82);
+}
+
+/* widget board header */
+div.pin_board_profile_description
+{
+  font-weight: bold;
+  color: #999;
+}
+
+/* widget board info */
+div.pin_board_profile_info
+{
+  padding: 10px;
+  border-top: 1px dotted transparent;
+  border-bottom: 3px double transparent;
+  overflow: hidden;
+  position: relative;
+  background: transparent;
+  -moz-box-shadow: 0 2px 3px 0 transparent;
+  -webkit-box-shadow: 0 2px 3px 0 transparent;
+  box-shadow: 0 2px 3px 0 transparent;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+div.pin_board_profile_info_owner
+{
+  overflow: hidden;
+}
+
+div.pin_board_profile_info_owner .pin_board_profile_info_owner_photo
+{
+  float: left;
+  margin-right: 7px;
+}
+
+div.pin_board_profile_info_owner .pin_board_profile_info_owner_photo img.thumb_icon
+{
+  width: 36px;
+  height: 36px;
+}
+
+div.pin_board_profile_info_owner > div
+{
+  overflow: hidden;
+}
+
+div.pin_board_profile_info_owner > div > span
+{
+  font-weight: bold;
+}
+
+div.pin_board_profile_info_owner > div ul li
+{
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 0.8em;
+}
+
+div.pin_board_profile_info_stats
+{
+  float: right;
+  text-align: right;
+  padding-top: 5px;
+}
+
+div.pin_board_profile_info_stats li
+{
+  display: inline-block;
+  margin-left: 15px;
+}
+
+div.pin_board_profile_info_stats p
+{
+  font-size: 0.8em;
+  color: #999;
+}
+
+div.pin_board_profile_info_stats p > span
+{
+  font-style: italic;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+div.pin_board_profile_info_stats p > a
+{
+  font-weight: bold;
+}
+
+div.pin_board_profile_info_buttons
+{
+  left: 50%;
+  margin-left: -120px;
+  position: absolute;
+  top: 15px;
+  width: 240px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* top submitters widget */
+ul.pin_top_submitters
+{
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+ul.pin_top_submitters > li
+{
+  clear: both;
+  overflow: hidden;
+}
+
+ul.pin_top_submitters > li + li
+{
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+ul.pin_top_submitters img.thumb_icon
+{
+  float: left;
+  overflow: hidden;
+  margin-right: 7px;
+}
+
+ul.pin_top_submitters .pin_submitter_title
+{
+  font-weight: bold;
+}
+
+ul.pin_top_submitters .pin_submitter_meta
+{
+  font-size: 0.8em;
+  margin: 3px 0;
+  color: #999;
+}
+
+/* widget - profile submitter */
+div.pin_profile_submitter
+{
+  border: 1px solid transparent;
+  padding: 7px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+div.pin_profile_submitter .pin_profile_submitter_photo
+{
+  float: left;
+  margin-right: 7px;
+  overflow: hidden;
+}
+
+div.pin_profile_submitter .pin_profile_submitter_user
+{
+  overflow: hidden;
+  font-weight: bold;
+  display: block;
+}
+
+div.pin_profile_submitter span
+{
+  overflow: hidden;
+  font-size: 0.8em;
+  margin-top: 5px;
+  color: #999;
+}
+
+/* widget user info */
+div.pin_user_info
+{
+  overflow: hidden;
+}
+
+div.pin_user_info img.item_photo_user
+{
+  float: left;
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+}
+
+div.pin_user_info span a
+{
+  font-size: 24px;
+}
+
+/* widget user menu */
+div.pin_user_menu
+{
+  padding: 10px;
+  border-top: 1px dotted transparent;
+  border-bottom: 3px double transparent;
+  overflow: hidden;
+  position: relative;
+  background: transparent;
+  -moz-box-shadow: 0 2px 3px 0 transparent;
+  -webkit-box-shadow: 0 2px 3px 0 transparent;
+  box-shadow: 0 2px 3px 0 transparent;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+div.pin_user_menu_header
+{
+  float: left;
+  margin-right: 20px;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+div.pin_user_menu ul.navigation li
+{
+  display: inline-block;
+}
+
+.pin_user_menu li a,
+.pin_user_menu li a:link, .pin_user_menu li a:visited
+{
+  font-weight: bold;
+  background-color: #F5F5F5;
+  background-image: -moz-linear-gradient(center top , #FFFFFF, #E6E6E6);
+  border-color: #E6E6E6 #E6E6E6 #B3B3B3;
+  border-radius: 4px 4px 4px 4px;
+  border-style: solid;
+  border-width: 1px;
+  color: #666;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1em;
+  margin: 0;
+  padding: 0.4em 0.8em;
+  text-decoration: none;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+}
+
+.pin_user_menu li a:hover
+{
+  text-decoration: none;
+  background-color: #E6E6E6;
+  background-image: -moz-linear-gradient(center top , #eeeeee, #d6d6d6);
+  color: #000000;
+}
+
+.pin_user_menu li a:active
+{
+  text-decoration: none;
+  background: #E6E6E6;
+  background-image: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.pin_user_menu li.active a
+{
+  background: #ddd;
+}
+
+.pin_marklet_success
+{
+  width: 550px;
+}
+
+.pin_marklet_success .pin_marklet_success_header
+{
+  text-align: center;
+  font-size: 28px;
+}
+
+.pin_marklet_success .pin_marklet_success_body
+{
+  text-align: center;
+  font-size: 16px;
+  margin: 10px auto;
+}
+
+.pin_marklet_success .pin_marklet_success_link
+{
+  text-align: center;
+  font-size: 16px;
+}
+
+.pin_goodies_header
+{
+  font-size: 26px;
+  margin: 15px 0;
+}
+
+.pin_marklet_install
+{
+  padding: 15px;
+  margin: 20px auto;
+  background: transparent;
+  color: #444;
+  font-size: 18px;
+  border-top: 1px solid transparent;
+  overflow: hidden;
+}
+
+.pin_marklet_install p
+{
+  text-shadow: 0 1px #fff;
+  padding-top: 8px;
+}
+
+a.pin_marklet_install_button
+{
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0 1px 2px rgba(34, 25, 25, 0.5);
+  cursor: move;
+  float: left;
+  font-size: 18px;
+  line-height: 1em;
+  margin-right: 18px;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.pin_marklet_install_button:hover
+{
+  text-decoration: none;
+  background: #f9f9f9;
+}
+
+div.pin_marklet_help_header
+{
+  font-size: 20px;
+}
+
+div.pin_marklet_help_browser_header
+{
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px auto;
+  color: #5f93b4;
+}
+
+div.pin_marklet_help_browser_header:hover
+{
+  color: #4e81a1;
+}
+
+div.pin_marklet_help_browser_content
+{
+  border-left: 5px solid #eaeaea;
+  padding-left: 20px;
+  margin: 10px auto;
+  font-size: 14px;
+}
+
+div.pin_goodies_button_about
+{
+  font-size: 14px;
+}
+
+div.pin_goodies_button_about p
+{
+  margin: 0.5em auto;
+}
+
+#pin_button_form_generator
+{
+  clear: both;
+  overflow: hidden;
+  margin: 15px auto;
+}
+
+#pin_button_form_generator div.pin-button-fields
+{
+  background: transparent;
+  border: 1px solid transparent;
+  padding: 15px;
+  float: left;
+  width: 400px;
+  margin-right: 20px;
+}
+
+#pin_button_form_generator div.pin-button-preview
+{
+  background: transparent;
+  border: 1px solid transparent;
+  padding: 15px;
+  width: 180px;
+  float: left;
+}
+
+#pin_button_form_generator .pin-field-row
+{
+  margin-bottom: 10px;
+}
+
+#pin_button_form_generator .pin-field-row label
+{
+  display: block;
+}
+
+#pin_button_form_generator .pin-field-row label span
+{
+  font-size: 0.8em;
+  color: #999;
+}
+
+#pin_button_form_generator .pin-field-row input,
+#pin_button_form_generator .pin-field-row textarea
+{
+  width: 390px;
+}
+
+#pin_button_form_generator .pin-field-row input.pin_error
+{
+  border: 1px solid red;
+}
+
+#pin_button_form_generator .pin-field-action
+{
+  text-align: right;
+}
+
+#pin_button_code
+{
+  background: transparent;
+  border: 1px solid transparent;
+  padding: 15px;
+  width: 560px;
+}
+
+#pin_button_code textarea
+{
+  width: 550px;
+}
+
+#pin_button_code_embed
+{
+  height: 60px;
+}
+
+#pin_button_code_script
+{
+  height: 40px;
+}
+
+/* main navs and some header parts common to both store and main site */
+
+
+/** third menu */
+.dropdown-menu .dropdown-menu {
+    left: 100%;    
+    float: right;
+    top: 0;    
+    margin-top: -1px;
+}
+
+
+.dropdown > .dropdown-menu > .dropdown {
+  position: relative;
+
+}
+
+
+.dropdown > .dropdown-menu > .dropdown .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-top: 4px solid transparent !Important;
+  border-bottom: 4px solid transparent !Important;  
+  border-left: 4px solid #3092cb; 
+  content: "";
+  position: relative;
+  
+}
+.dropdown > .dropdown-menu > li.dropdown:hover .caret {
+  border-left: 4px solid #fff;  
+}
+
+/** radius and background */
+.dropdown > .dropdown-menu > .dropdown > .dropdown-menu {
+  background-color: #fff;   
+  border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+}
+
+/** remove caret from dropdown */
+.navbar .nav > li > .dropdown-menu:after,
+.navbar .nav > li > .dropdown-menu:before {
+  content: '';
+  display: none;
+}
+

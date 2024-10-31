@@ -1,0 +1,573 @@
+#TB_closeAjaxWindow,
+.hidethis {
+  display: none !important;
+}
+#tiles *, #tiles *:before, #tiles *:after {
+  box-sizing: border-box;
+}
+#tiles span[itemprop="member"] {
+  line-height: 1.3;
+}
+.pin_as_image_slider {
+  overflow: hidden !important;
+  
+}
+#tiles .block-content iframe {
+  width: 100% !important;
+}
+#tiles .block-footer a {
+  text-decoration: none;
+  border: none ;
+}
+
+/**
+ * Grid container
+ */
+#tiles {
+  list-style-type: none;
+  position: relative; /** Needed to ensure items are laid out relative to this container **/
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+#tiles > li ,
+#tiles > li .block-content {
+  background-color: #fff;
+}
+#tiles .content h2 {
+  padding: 5px ;
+}
+/**
+ * Grid items
+ */
+#tiles > li {
+  width: 300px;
+  background-color: #f5f5f5;
+  border: 1px solid #dedede;
+  height: auto;
+  padding: 0px;  
+  margin: 10px;  
+  list-style: none !important;  
+  overflow: hidden;  
+  float: left;
+  max-width: 300px;
+
+  /* box shadow */
+  box-shadow: 0 0 8px  rgba(0,0,0, 0.1);
+  -moz-box-shadow: 0 0 8px  rgba(0,0,0, 0.1);
+  -webkit-box-shadow: 0 0 8px  rgba(0,0,0, 0.1);
+
+  
+}
+#tiles > li h2 > a {
+  text-decoration: none;
+  border: none;
+}
+#tiles > li h2 {
+  margin: 0 5px;
+}
+#tiles .block-header {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #dedede;
+  padding: 6px 1px;
+}
+
+#tiles .block-header h2 {
+  font-size: 110%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  line-height: normal;
+}
+#tiles .block-content h2 {
+  margin: 0 5px;
+}
+#tiles h2 {
+
+  /* customize headline */
+  text-align: center;
+  line-height: 1.4
+  
+}
+#tiles .content {
+  background-color: #fff;  
+  max-width: 300px;
+  width: auto;
+  height: auto;    
+  padding: 10px;
+
+}
+#tiles li  p.description {  
+  text-align: center;
+  margin: 5px 8px;
+}
+
+#tiles li a.pin-thumb > img { 
+  display: block;
+  height: auto;  
+  max-width: 300px;
+  width: 100% !important;
+}
+
+
+#inifiniteLoader{    
+    display:none;  
+} 
+/** General page styling 
+.view-first img { 
+    transition: all 0.2s linear;
+    max-width: 300px;
+}
+.view-first:hover img { 
+    transform: scale(1.1);
+} 
+
+**/
+#tiles .block-footer {
+  border-top: 1px solid #dedede;
+  padding: 5px 0; 
+  background-color: #f5f5f5;
+  width: 100%;
+  text-align: right;
+  position: relative;
+  opacity: 0.8;
+
+}
+
+#tiles .block-footer,
+#tiles .block-footer a {
+  opacity: 0.8;
+  font-size: 90%;
+}
+
+#tiles li .block-footer a {
+  margin: 0 5px;
+  color: #999;
+}
+
+#tiles li .block-footer a:hover{
+  color: red;
+}
+
+
+
+/* pin as quote  */
+
+#tiles .quote_source {
+  border: 1px inset #fff; 
+  padding: 5px 0px 5px 5px; 
+  margin: 1px;
+  text-align: right; 
+  font-style: italic;
+  width: auto;
+  color: #000;
+  font-size: 11px;
+}
+
+/* pin as image */
+.pin_as_image #slider {
+    height: 300px !important;
+    overflow: hidden;
+    max-height: 300px;
+}
+
+.pin_as_image #slider > img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.readmore-js-toggle, .readmore-js-section {
+  width: auto !important;
+}
+.readmore-js-collapsed {
+  overflow: ellipsis;
+}
+
+
+/* CSS for jQuery More plugin v2.0.0. */
+.more-hidden {
+  display: none;
+}
+.more-link {
+  margin-left: 1em;
+  padding: 0.125em;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em;
+  text-decoration: none;
+}
+.more-link img {
+  border: none;
+}
+.pin_as_quote .full-text,
+.pin_as_text .full-text {
+  display: none;
+}
+
+.full-text-btn {
+  cursor: pointer;
+}
+
+/* pin as contact */
+.pin_as_contact img.thumbnail {
+  float: right;
+  max-width: 100px;
+  clear: both;
+}
+.pin_as_contact .block-footer  {
+
+  text-align: center;
+}
+.pin_as_contact .block-footer ul {
+  width: 90%;
+  margin: 0 auto;
+}
+.pin_as_contact .block-footer ul li {
+  display: block;
+  padding: 0;
+  margin: 0 0 1% 0;
+  list-style: none;
+  float: left;
+  font-size: 11px;
+}
+.pin_as_contact .block-footer .download span {
+  font-size: 11px;
+}
+.pin_as_contact .content span[itemprop="member"] strong,
+  .pin_as_contact .content span[itemprop="name"] strong {
+    font-size: 112%;
+  }
+  .pin_as_contact .content span[itemprop="email"] {
+    
+  }
+
+  .pin_as_contact .content ul{
+    margin: 0;
+    padding: 0;
+  }
+  .pin_as_contact .content ul li {
+    list-style: none none;
+    margin: 0 5px 5px 0px;
+    padding: 0;
+    text-indent: none;
+  }
+  .pin_as_contact .company_name {
+    font-weight: bold;
+
+  }
+
+  .pin_as_contact .email {
+    color: red
+  }
+
+  .pin_as_contact  {
+    color: #000;
+  }
+
+
+
+
+/* pin as embed */
+.pin_as_embed .content {
+  width: auto;
+  padding: 10px;
+  margin:0;
+  text-align: center;
+}
+.pin_as_embed .content > iframe {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  
+}
+.pin_as_embed .block-footer span.embed {
+  margin: 5px 5px 10px;
+  color: #999;
+}
+.pin_as_embed .block-footer textarea {
+  display: block;
+  
+  clear: both;
+  width: 270px;
+  margin: 0 auto;
+
+}
+
+/* pin as quote */
+
+  .pin_as_quote .content {
+    
+
+  }
+
+
+/* pin as link */
+
+  .pin_as_link .content ul > li a {
+    vertical-align: middle;
+    position: relative;
+    top: -5px;
+    text-decoration: underline;
+  }
+  .pin_as_link .content ul {
+    margin: 0;
+    padding: 0;
+  }
+  .pin_as_link .content ul > li {
+    /*list-style-image: url(../images/globe-icon.png);*/
+    list-style: circle;
+    list-style-position: inside;
+    margin: 8px 0 8px 0;
+    /*border-bottom: 1px inset #eee;*/
+
+    
+  }
+.pin_as_link .content ul > li a:hover,
+.pin_as_link .content ul > li:hover {
+  background-color: none;
+  background: none;
+}
+
+
+/** pin_as image block */
+.pin_as_image .nivo-nextNav {
+  
+}
+
+.pin_as_image .nivo-prevNav {
+  
+}
+
+.pin_as_text .content img {
+  max-width: 280 !important;
+  overflow: hidden;
+}
+
+.copy-to-clipboard {
+  position: relative;
+}
+
+.pin_as_text {
+  position: relative;
+}
+
+/* press release date block */
+#tiles .title span.pr-date {
+  font-style: oblique;
+  font-size: 80%;
+}
+
+
+
+
+
+/* pressroom fake tabs */
+#pressroom-navigation-next {
+  display: none;
+}
+#pressroom-wrapper .navbar {
+  margin: 0;
+}
+#pressroom-wrapper .navbar-inner li a:hover {
+  color: #666;
+}
+#pressroom-wrapper .navbar-inner li.active a:hover {
+  color: #000;
+}
+#pressroom-wrapper .navbar-inner li a {
+  font-size: 16px;
+  padding: 10px 50px;
+  margin: 10px 0;
+  text-shadow: none;
+}
+#pressroom-wrapper .navbar-inner {
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  padding: 0;
+}
+
+
+
+    .pressroom-header > h1 {
+     position: relative;
+     padding: 20px;
+     font-size: 48px;
+     margin: 0;
+     font-family: fantasy;
+    }
+    #pressroom-wrapper {  
+      margin: 0 auto;
+      height: auto;
+      position: relative; 
+      width: 1560px;
+      max-width: 100%;
+    }
+
+    .pressroom-tabs {
+      padding: 0;
+      margin: 0 auto; 
+      margin: 20px 5px;
+    }
+
+    .pressroom-tabs li.active {
+      background-color: #333;
+    }
+    .pressroom-tabs li.active > a {
+      font-size: 21px;
+      color: #fff;
+      
+    }
+
+    .pressroom-tabs > li {
+      display: inline-block; 
+      float: left;
+      padding: 5px 40px;
+      background-color: #fff;
+      margin: 0;
+      float: none;
+      vertical-align: baseline;
+      min-width: 150px;
+
+    }
+    .pressroom-tabs  a:hover,
+    .pressroom-tabs  a {
+      font-size: 16px;
+      color: #000;
+      text-decoration: none;
+    }
+
+/* responsive */
+@media (max-width: 979px) {
+  #pressroom-wrapper .navbar-inner {
+    background-color: #ccc;
+  }
+}
+
+@media ( max-width: 600px) {
+  .pressroom-tabs {
+    text-align: center;
+  }
+
+  .pressroom-tabs li {
+    width: auto;
+    
+  }
+}    
+
+.block-content {
+    padding: 5px;
+}
+.pressroom-article img.pin-thumb {
+  padding: 0px;
+  margin: 0;
+  border: 0;
+}
+.pin_as_latestpr .info .title{
+  font-size: 14px;
+
+}
+.pin_as_latestpr .block-content .latest-thumbnail {
+    width: 100px;
+  height: 100px;
+  margin: 0 5px 0 0;
+  background-color: #eee;
+}
+.pin_as_latestpr .block-content {
+  padding-bottom: 10px;
+}
+.pin_as_latestpr .block-content .info p {
+  margin: 0;
+}
+.pin_as_latestpr .block-content .meta {
+  font-size: 11px;
+}
+ul.list,
+ul.list > li,
+#tiles .pin_as_latestpr ul.list,
+#tiles .pin_as_latestpr ul.list li {
+  list-style: none;
+  clear: both;
+  padding: 0;
+  margin: 0;
+
+}
+#tiles .pin_as_latestpr ul.list li {
+  display: none;
+  padding: 5px 0 0 0;
+  min-height: 100px;
+}
+
+#tiles .pin_as_latestpr .block-footer {
+  text-align: center;
+}
+
+#tiles .pin_as_contact .biography a:hover,
+#tiles .pin_as_contact .biography a {
+  font-size: 12px;
+  word-wrap: none;
+  white-space: nowrap;  
+}
+.aligncenter {
+  margin: 0 auto;
+  text-align: center;
+}
+/* media queries */
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media all and (max-width: 480px) {
+
+  #tiles > li {
+    width: 250px;
+  }
+}
+
+
+/* Portrait */
+@media screen and (orientation:portrait) { /* Portrait styles here */ }
+/* Landscape */
+@media screen and (orientation:landscape) { /* Landscape styles here */ }
+
+
+/* CSS for iPhone, iPad, and Retina Displays */
+
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+}
+
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+} 
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+}
+
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+}
+
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
+}

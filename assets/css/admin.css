@@ -1,0 +1,435 @@
+/** basic colors */
+@import url("jquery-ui/jquery.ui.tabs.css");
+@import url("jquery-ui/jquery.ui.theme.css");
+
+#nwire-post-meta table {
+  margin-bottom: 20px;
+}
+#nwire-post-meta table th {
+  text-align: right;
+}
+#newswire-publication-options {
+  padding: 0 10px 0;
+}
+#category-filter-wrapper {
+  max-width: 1200px !important;
+}
+
+
+#newswire-settings  .pin-box.us,
+#newswire-settings  .pin-box.travel,
+#newswire-settings  .pin-box.real-estate,
+#newswire-settings  .pin-box.science,
+#newswire-settings  .pin-box.sports,
+#newswire-settings  .pin-box.technology {
+  min-height:  80px;
+}
+
+.category-pages.category-filter > li {
+  min-height: 175px;
+}
+.arrow-small-right {
+  background: url(../images/arrow_small_right.gif) no-repeat 20px 20px; 
+  vertical-alignment: baseline;
+}
+.newswire address {
+  margin-bottom: 0px !Important;
+}
+
+.newswire-font-red {
+  color: #ff0;
+}
+
+
+/* max counter */
+.newswire   .maxcounter {
+    
+    font-size: 10px;
+    padding: 2px 0;
+  }
+
+
+.newswire div.event_calendar_container button.event_calendar {
+  background: url(../images/event_calendar_icon.gif) no-repeat;
+  border: 0;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin-right: 6px;
+  line-height: 100%;
+}
+
+.newswire .howto {
+  display: inline;
+  float: right;
+}
+
+.newswire .hidden {
+  display: none;
+}
+
+.newswire .ui-widget-header {
+  background: none;
+}
+
+.newswire .ui-tabs{
+  background: none; 
+  border: none;
+}
+
+.newswire .ui-tabs .ui-tabs-nav li a {
+
+}
+
+
+.newswire .ui-tabs .ui-tabs-nav {
+  padding: 0;
+}
+
+/** jquery ui tooltip */
+.ui-tooltip-content {
+  color: #fff;
+}
+.ui-tooltip, .arrow:after {
+    background: #000 !important;
+    border: 2px solid white;
+
+  }
+  .ui-tooltip {
+    padding: 10px 20px;
+    position: relative;
+    color: white;
+    border-radius: 8px;    
+    box-shadow: 0 0 7px black;
+    max-width: 500px;
+  }
+  .arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+  }
+  .arrow.top {
+    top: -16px;
+    bottom: auto;
+  }
+  .arrow.left {
+    left: 20%;
+  }
+  .arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    tranform: rotate(45deg);
+  }
+  .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+  }
+/** add image tab */
+#newswire-add-image  .newswire_update_image {
+    display: block;
+    
+  }
+
+  #newswire-add-image .newswire-image-preview img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0px;
+  
+  }
+  #newswire-add-image .newswire-image-preview {
+  
+  }
+  #newswire-add-image  .form-table {
+    width: 100%;  
+    margin: 0px; 
+  }
+
+  #nwire-post-meta h3.hndle > span {
+    /*background: url(../images/newswire_icon.png) no-repeat;
+    display: block;
+    padding-left: 20px;*/
+  }
+
+
+.ui-widget-header {
+  border: none;
+}
+
+/** settings page */
+#newswire-settings .form-table {
+  background-color: #fff;
+  margin: 0 !important;
+}
+
+#newswire-settings .form-table th {
+  padding: 20px;
+}
+
+#newswire-settings p.description {
+  font-size: 11px !Important;
+}
+
+#newswire-settings .ui-tabs .ui-tabs-panel {
+  border: 1px solid #dfdfdf;
+  margin-top: -5px;
+  background-color: #fff; 
+  min-height: 200px;
+}
+#newsroom-settings-general,
+#pressroom-settings-general,
+#pressroom-settings-rss,
+#pressroom-settings-css,
+#newswire-settings-css,
+#newswire-settings-rss,
+#newswire-settings-general,
+#newswire-settings-newsroom,
+#newswire-settings-categories,
+#newswire-settings-shortcodes {
+  padding: 0 !important;
+
+}
+
+
+#newswire-post-meta-box .ui-tabs .ui-tabs-panel {
+   border-top: 1px solid #eee;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  padding-top: 33px;
+  background-color: #fff; 
+  min-height: 200px;
+  padding: 1em 1.4em;
+
+}
+  
+#newswire-settings  .validate-api-wrapper {
+  position: relative;
+  float: left;
+  width: auto;
+}
+#newswire-settings .spinner {
+  
+}
+
+.newswire-validate-api-success {
+  width: 400px;
+}
+
+/** admin category filter */
+ul.category-filter li {
+  margin: 3px 0;
+}
+
+ul.category-filter > li {
+  float: left;
+  width: 200px;
+  background-color: #eee;
+  padding: 10px 5px;
+  margin: 3px;
+}
+
+ul.category-filter  li  ul  li  {
+  
+  width: auto;
+  padding: 2px 5px 2px 18px;
+  position: relative;
+}
+
+ul.category-filter  li  ul  li  ul  li  {
+ 
+  width: 150px;
+  padding: 2px 0px 2px 18px;
+  font-size: 12px;
+}
+
+.indent5 {
+  padding-left: 10px;
+}
+
+#newswire-settings  .pin-box.local {
+  max-height: 570px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#placeholder-text-editor-pin-as-quote,
+#placeholder-text-editor-pin-as-social,
+#placeholder-text-editor-pin-as-embed {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  color: #ccc;
+  font-size: 150%;
+}
+#placeholder-text-editor-pin-as-social,
+#placeholder-text-editor-pin-as-quote {
+  top: 10px;
+}
+#title-prompt-text span {
+  color: #ccc;
+}
+
+
+/** list sorting */
+.wp-list-table .ui-sortable tr {
+  cursor: move;
+}
+
+.wp-list-table .spo-updating tr,
+.wp-list-table .ui-sortable tr.inline-editor {
+  cursor: default;
+}
+
+.wp-list-table .ui-sortable-placeholder {
+  outline: 1px dashed #bbb;
+  background: #F1F1F1;
+  visibility: visible !important;
+}
+.wp-list-table .ui-sortable-helper {
+  background-color: #fff;
+  outline: 1px solid #e1e1e1;
+}
+.spo-updating-row .check-column {
+  background: url('../../../../../wp-admin/images/spinner.gif') 11px 11px no-repeat;
+}
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+  .spo-updating-row .check-column {
+    background-image: url('../../../../../wp-admin/images/spinner-2x.gif');
+    background-size: 20px 20px;
+  }
+}
+.spo-updating-row .check-column input {
+  visibility: hidden;
+}
+
+.description-note {
+  font-size: 10px;
+  color: red;
+}
+
+
+
+/** icons */
+@font-face {
+  font-family: 'Newswire';
+  src:url('../font/Newswire.eot?-3wc37q');
+  src:url('../font/Newswire.eot?#iefix-3wc37q') format('embedded-opentype'),
+    url('../font/Newswire.woff?-3wc37q') format('woff'),
+    url('../font/Newswire.ttf?-3wc37q') format('truetype'),
+    url('../font/Newswire.svg?-3wc37q#Newswire') format('svg');
+  /*font-weight: normal;
+  font-style: normal;*/
+  
+}
+#menu-pressroom .dashicons-before:before {
+  line-height: .8;    
+  font-family: 'Newswire';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    
+    
+  content: "\e101";
+}
+
+#menu-pressroom-ninja .dashicons-before:before {
+  line-height: .8;    
+  font-family: 'Newswire';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   
+    
+  content: "\e100";
+}
+
+.icon-e000-newswire:before {
+  content: "\e000";
+}
+.nicon-e100-shuriken:before {
+  content: "\e100";
+}
+.nicon-e101-bullhorn:before {
+  content: "\e101";
+}
+
+#newswire-pressroom-image .upload-flash-bypass {
+  display: none;
+}
+
+.padded {
+  padding:  5px;
+}
+
+.bg-options {
+  margin: 0px 25px 0
+}
+.color-picker {
+  margin: 12px 25px 0
+}
+
+
+.newswire .alignright {
+  text-align: right;
+}
+.newswire .alignleft {
+  text-align: left;
+}
+.newswire .aligncenter {
+  text-align: center;
+}
+
+.hide-notice {
+  color: red;
+}
+.ui-tabs-nav.ui-widget-header {
+  border: none;
+}
+
+#nwire-company-info th {
+  padding-right: 15px;
+  text-align: right;
+}
+
+table.table-stripe th {
+  text-align: right;
+}
+table.table-stripe tr:nth-child(even) {background: #ddd}
+table.table-stripe tr:nth-child(odd) {background: #eee}
+
+#newswire-pressroom-link tr:nth-child(even) {background: #ddd}
+#newswire-pressroom-link tr:nth-child(odd) {background: #eee}
+
+#nwire-company-info tr:nth-child(even) {background: #ddd}
+#nwire-company-info tr:nth-child(odd) {background: #eee}
+#newswire-pressroom-image .wp-list-table.attachments tr:nth-child(even) {background: #ddd}
+#newswire-pressroom-image .wp-list-table.attachments tr:nth-child(odd) {background: #eee}
